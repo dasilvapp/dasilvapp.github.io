@@ -295,7 +295,8 @@ section {
 
 @media (max-width: 800px) {
   .publications {
-    margin: 5em 2em;
+    width: 80%;
+    margin: 5em auto;
   }
 }
 
