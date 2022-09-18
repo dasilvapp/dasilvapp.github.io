@@ -13,9 +13,9 @@ navLinks.forEach(link => {
 });
 
 iconCeu.addEventListener('mouseover', () => {
-  iconCeu.src = 'leedshover.png';
+  iconCeu.src = 'leedsiconhover.png';
 });
 
 iconCeu.addEventListener('mouseout', () => {
-  iconCeu.src = 'leeds.png';
+  iconCeu.src = 'leedsicon.png';
 });
