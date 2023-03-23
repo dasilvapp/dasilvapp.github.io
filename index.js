@@ -1,3 +1,8 @@
+$(".abstract").on("click", function () {
+  $(this).siblings(".abstract-item").toggle();
+});
+
+
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelectorAll('.nav__link');
 const iconCeu = document.querySelector('.icon_ceu');
