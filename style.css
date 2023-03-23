@@ -17,7 +17,7 @@
   --fs-h1: 1.7rem;
   --fs-h2: 1.6rem;
   --fs-h3: 1.5rem;
-  --fs-body: 1.25rem;
+  --fs-body: 1.2rem;
 }
 
 html,
@@ -267,8 +267,7 @@ section {
 }
 
 @media (min-width: 1000px) {
-  section,
-  .publications {
+  section {
     width: 80%;
     margin: 3em auto 1em;
   }
@@ -291,6 +290,36 @@ section {
 
 .publications:last-of-type {
   padding-bottom: 5em;
+}
+
+.publication-item:not(:first-of-type) {
+  margin-top: 2em;
+}
+
+.publication-title {
+  margin-bottom: 0px;
+}
+
+.publication-review {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.abstract {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.abstract-icon {
+  font-size: 10px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1000px) {
+  .publications {
+    width: 70%;
+    margin: 3em auto 1em;
+  }
 }
 
 @media (max-width: 1000px) {
